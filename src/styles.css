@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  perspective: 1000px;
+  background: #222;
+  cursor: var(--m-size), auto;
+  color: white;
+  overflow: hidden;
+  font-size: 18px;
+}
+
+#app {
+  transform: rotateX(50deg);
+  margin-top: -44vh;
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
+
+.box {
+  height: calc(100vh / 2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box.one {
+  background: #567568;
+}
+
+.box.two {
+  background: #7f9172;
+}
+
+.box.three {
+  background: #b49594;
+}
